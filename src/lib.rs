@@ -38,7 +38,7 @@ impl HttpContext for HttpConfigHeader {
 
 #[derive(Serialize, Deserialize)]
 struct PolicyConfig {
-     #[serde(alias = "example-value")]
+    #[serde(alias = "example-value")]
     example_value: String
 }
 
