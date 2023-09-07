@@ -1,7 +1,7 @@
 {
   "title": "{{project-name}}",
   "type": "object",
-  "description": "This is a template for a custom policy",
+  "description": "{{project-name}} description.",
   "properties": {
     "example-value": {
       "title": "Example value",

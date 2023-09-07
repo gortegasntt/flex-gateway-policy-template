@@ -1,6 +1,6 @@
 #%Policy Definition 0.1
 name: {{project-name}}
-description: This is a template for a custom policy.
+description: {{project-name}} description.
 category: Custom
 providedCharacteristics:
   - Template

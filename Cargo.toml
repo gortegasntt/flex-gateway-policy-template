@@ -1,12 +1,6 @@
 [package]
-name = "flex_custom_policy_auth_header"
+name = "{{project-name}}"
 version = "0.1.0"
-edition = "2021"
-
-[lib]
-crate-type = ["cdylib"]
-name="flex_custom_policy_auth_header"
-path="src/lib.rs"
 
 [dependencies]
 proxy-wasm = { git = "https://github.com/proxy-wasm/proxy-wasm-rust-sdk.git", tag = "v0.2.0" }
