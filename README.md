@@ -6,6 +6,10 @@
 
 # Compilar política
 
+Si no has compilado nunca una, lo primero tendrás que añadir wasm32 coo un targetde esta forma:
+- `rustup target add wasm32-wasi`
+- `rustup target add wasm32-unknown-unknown`
+
 Hay dos opciones:
 - `cargo build --target wasm32-wasi --release`
 - `cargo build --target wasm32-unknown-unknown --release`
