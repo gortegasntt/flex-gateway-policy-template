@@ -1,0 +1,27 @@
+{
+  "title": "{{project-name}}",
+  "type": "object",
+  "description": "This is a template for a custom policy",
+  "properties": {
+    "example-value": {
+      "title": "Example value",
+      "type": "string",
+      "default": "",
+      "@context": {
+        "@characteristics": [
+          "security:sensitive"
+        ]
+      }
+    }
+  },
+  "required": [
+    "example-value"
+  ],
+  "unevaluatedProperties": false,
+  "@context": {
+    "@vocab": "anypoint://vocabulary/policy.yaml#",
+    "security": "anypoint://vocabulary/policy.yaml#"
+  },
+  "$id": "{{project-name}}",
+  "$schema": "https://json-schema.org/draft/2019-09/schema"
+}

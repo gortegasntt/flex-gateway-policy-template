@@ -1,0 +1,11 @@
+#%Policy Definition 0.1
+name: {{project-name}}
+description: This is a template for a custom policy.
+category: Custom
+providedCharacteristics:
+  - Template
+requiredCharacteristics: []
+interfaceScope: ["api", "resource"]
+interfaceTransformation: []
+encryptionSupported: true
+violationCategory: authentication
